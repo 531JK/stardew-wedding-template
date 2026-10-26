@@ -24,8 +24,8 @@ npm run dev
 
 ```js
 const weddingConfig = {
-  groom: '钟明煌',
-  bride: '胡雅琳',
+  groom: '钟xx',
+  bride: '胡xx',
   groomLatin: 'GROOM',
   brideLatin: 'BRIDE',
   weddingDate: '2026-11-28T00:00:00+08:00',
