@@ -3,22 +3,7 @@
 一个星露谷像素风格的手机婚礼邀请函模板。你只需要修改一份配置，就能替换新人、日期、地点、日程和地图导航。
 仓库中的姓名、日期、地点和导航地址全部是占位示例，可以安全作为新项目起点。
 
-不想自己改代码？可直接使用 [交给 AI 的一键定制提示词](AI_SETUP_PROMPT.md)。
 
-## 请作者喝杯咖啡
-
-如果这个模板帮到了你，欢迎通过微信或支付宝支持作者。感谢你的鼓励！
-
-<table>
-  <tr>
-    <th align="center">微信</th>
-    <th align="center">支付宝</th>
-  </tr>
-  <tr>
-    <td align="center"><a href="assets/wechat-pay.jpg"><img src="assets/wechat-pay.jpg" alt="微信收款码" width="220" /></a></td>
-    <td align="center"><a href="assets/alipay-pay.jpg"><img src="assets/alipay-pay.jpg" alt="支付宝收款码" width="220" /></a></td>
-  </tr>
-</table>
 
 ## 快速开始
 
