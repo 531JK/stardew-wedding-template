@@ -1,10 +1,8 @@
 import { resolve } from 'node:path'
-import { cpSync, existsSync, mkdirSync } from 'node:fs'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
   base: '/stardew-wedding-template/',
-
   build: {
     rollupOptions: {
       input: {
@@ -13,19 +11,4 @@ export default defineConfig({
       },
     },
   },
-
-  plugins: [
-    {
-      name: 'copy-assets-to-dist',
-      closeBundle() {
-        const source = resolve(import.meta.dirname, 'assets')
-        const target = resolve(import.meta.dirname, 'dist/assets')
-
-        if (existsSync(source)) {
-          mkdirSync(target, { recursive: true })
-          cpSync(source, target, { recursive: true })
-        }
-      },
-    },
-  ],
 })
